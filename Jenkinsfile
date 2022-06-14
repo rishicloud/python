@@ -1,5 +1,5 @@
 pipeline{
-	    agent{label 'build1'}
+	    agent{label 'rishi12'}
 	    stages{
 	        stage(SCM){
 	            steps{
