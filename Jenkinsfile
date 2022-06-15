@@ -10,17 +10,7 @@ steps
 git branch: 'master', url: 'https://github.com/bravatjammu/python.git'
 }
 }
-stage('installing dependencies')
-{
-steps
-{
-sh "pip install flake8"
-sh "pip install pytest"
-sh "python3 -m pip install --upgrade pip setuptools wheel"
-sh "pip install -r requirements.txt"
-sh "pip install pytest-cov"
-}
-}
+
 stage('test')
 {
 steps
