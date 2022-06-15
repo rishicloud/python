@@ -28,7 +28,7 @@ steps
 sh "pytest"
 }
 }
-stage('test wtih flake')
+stage('test wtih flake8')
 {
 steps
 {
