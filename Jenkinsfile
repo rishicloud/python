@@ -16,6 +16,7 @@ stage('test')
 steps
 {
 sh "pytest"
+sh(""" /jenkins/workspace/""")
 }
 }
 stage('test wtih flake8')
