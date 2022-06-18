@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage(SCM){
             steps{
-                git branch: 'master', url: 'https://github.com/bravatjammu/python.git'
+                git branch: 'master', url: 'https://github.com/rishicloud/python.git'
             }
         }
         stage('build'){
